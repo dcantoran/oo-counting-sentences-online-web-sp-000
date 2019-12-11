@@ -30,7 +30,7 @@ class String
     # self.scan(/\w[!.?]/).count 
     self.split(/\.|\?|\!/).delete_if  do |w| 
       w.size < 2 
-      binding.pry
+      # binding.pry
     end.size
   end
   
